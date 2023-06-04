@@ -6,7 +6,7 @@
 | pattern-id              | onp.base.template                             |
 | pattern-name            | base template                                 |
 | pattern-version         | 1.0.0                                         |
-| pattern-description     | Some description here                         |
+| pattern-description     | The pattern uses a source account and a destination account in different Regions. You attach a bucket policy to your source S3 bucket that grants the destination account access through AWS Identity and Access Management (IAM). You then create an IAM policy in your destination account that allows a user to perform PutObject and GetObject actions on the source S3 bucket. Finally, you run copy and sync commands to transfer data from the source S3 bucket to the destination S3 bucket.                         |
 | organisation-id         | nc                                            |
 | pattern-categories      | bootstrap                                     |
 
